@@ -1,4 +1,4 @@
-# IoT Insecure MQTT Protocol Exploitation (Module 18)
+# IoT Insecure MQTT Protocol Exploitation
 
 ## 🎯 Executive Summary
 This laboratory demonstrates the severe risks of insecure IoT communication protocols. Specifically, it targets an unauthenticated **MQTT (Message Queuing Telemetry Transport)** broker. The lab illustrates how an attacker can passively eavesdrop on a wildcard topic (`#`) to intercept sensitive plaintext telemetry (like a smart lock PIN), and then actively inject forged commands to hijack the hardware.
